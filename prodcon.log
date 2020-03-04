@@ -1,42 +1,44 @@
-0.000 ID= 0 Q= 1 Work    4
-0.000 ID= 0 Q= 2 Work    2
-0.000 ID= 0 Q= 3 Work    1
-0.000 ID= 0 Q= 4 Work    1
-0.000 ID= 0      Sleep    9
-0.000 ID= 2      Ask
-0.000 ID= 2 Q= 3 Receive    4
-0.000 ID= 1      Ask
-0.000 ID= 1 Q= 2 Receive    2
-0.000 ID= 1      Complete    2
-0.000 ID= 1      Ask
-0.000 ID= 1 Q= 1 Receive    1
-0.000 ID= 1      Complete    1
-0.000 ID= 1      Ask
-0.000 ID= 1 Q= 0 Receive    1
-0.000 ID= 2      Complete    4
-0.000 ID= 2      Ask
-0.000 ID= 1      Complete    1
-0.000 ID= 1      Ask
-0.000 ID= 0 Q= 1 Work    5
-0.000 ID= 0      Sleep    1
-0.000 ID= 2 Q= 0 Receive    5
-0.000 ID= 2      Complete    5
-0.000 ID= 2      Ask
-0.000 ID= 0 Q= 1 Work    1
-0.000 ID= 0 Q= 2 Work    1
-0.000 ID= 0 Q= 3 Work    1
-0.000 ID= 0      End
-0.000 ID= 1 Q= 3 Receive    1
-0.000 ID= 2 Q= 2 Receive    1
-0.000 ID= 2      Complete    1
-0.000 ID= 2      Ask
-0.000 ID= 2 Q= 1 Receive    1
-0.000 ID= 1      Complete    1
-0.000 ID= 1      Ask
-0.000 ID= 2      Complete    1
-0.000 ID= 2      Ask
-Work 8
-Ask 10
-Receive 8
-Complete 8
-Sleep 2
+0.000 ID= 0 Q= 1     Work     4
+0.000 ID= 1           Ask
+0.000 ID= 1 Q= 0  Receive     4
+0.000 ID= 0 Q= 1     Work     2
+0.000 ID= 0 Q= 2     Work     1
+0.000 ID= 0 Q= 3     Work     1
+0.000 ID= 2           Ask
+0.000 ID= 2 Q= 2  Receive     2
+0.000 ID= 0         Sleep     9
+0.004 ID= 2      Complete     2
+0.004 ID= 2           Ask
+0.004 ID= 2 Q= 1  Receive     1
+0.008 ID= 2      Complete     1
+0.008 ID= 2           Ask
+0.008 ID= 2 Q= 0  Receive     1
+0.010 ID= 1      Complete     4
+0.010 ID= 1           Ask
+0.010 ID= 2      Complete     1
+0.010 ID= 2           Ask
+0.091 ID= 0 Q= 1     Work     5
+0.091 ID= 0         Sleep     1
+0.091 ID= 1 Q= 0  Receive     5
+0.096 ID= 1      Complete     5
+0.096 ID= 1           Ask
+0.101 ID= 0 Q= 1     Work     1
+0.101 ID= 0 Q= 2     Work     1
+0.101 ID= 2 Q= 1  Receive     1
+0.101 ID= 0 Q= 2     Work     1
+0.101 ID= 0           End
+0.101 ID= 1 Q= 1  Receive     1
+0.102 ID= 2      Complete     1
+0.102 ID= 2           Ask
+0.102 ID= 2 Q= 1  Receive     1
+0.102 ID= 1      Complete     1
+0.102 ID= 1           Ask
+0.103 ID= 2      Complete     1
+0.103 ID= 2           Ask
+Summary:
+	Work     8
+	Ask      10
+	Receive  8
+	Complete 8
+	Sleep    2
+Transactions per second: 77.292962
